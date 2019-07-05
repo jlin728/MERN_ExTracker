@@ -1,3 +1,13 @@
+#MERN Exercise Tracker
+
+App is built with front and back end in one folder. 
+Approach was to build backend first (created db, routes, and models) then the front end. 
+
+For me, this was how I learned to set up a full MEAN stack, therefore more intuitive.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
