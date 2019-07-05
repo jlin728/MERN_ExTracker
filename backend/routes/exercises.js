@@ -3,14 +3,14 @@
  const router = require('express').Router();
  let Exercise = require('../models/exercise.model');
  
- // Read .../exercise/
+ // Read .../exercises/
  router.route('/').get((req, res)=>{
      Exercise.find()
          .then(exercises => res.json(exercises))
          .catch(err => res.status(400).json('Error: ' + err));
  });
  
- // Create .../exercise/add
+ // Create .../exercises/add
  router.route('/add').post((req, res)=>{
      const username = req.body.username;
      const description = req.body.description;
@@ -29,4 +29,8 @@
      .catch(err => res.status(400).json('Error: ' +err));
  });
  
+// Update .../exercises/update
+
+// Delete .../exercises/delete
+
  module.exports = router;
