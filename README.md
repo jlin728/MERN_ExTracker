@@ -1,4 +1,4 @@
-#MERN Exercise Tracker
+##MERN Exercise Tracker
 
 App is built with front and back end in one folder. 
 Approach was to build backend first (created db, routes, and models) then the front end. 
